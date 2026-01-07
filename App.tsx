@@ -2,17 +2,17 @@
 import React from 'react';
 import { HashRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import { AnimatePresence, motion } from 'framer-motion';
-import Navbar from './components/Navbar.tsx';
-import Footer from './components/Footer.tsx';
-import Home from './pages/Home.tsx';
-import About from './pages/About.tsx';
-import TestimonialsPage from './pages/TestimonialsPage.tsx';
-import Contact from './pages/Contact.tsx';
-import Blog from './pages/Blog.tsx';
-import LabBooking from './pages/services/LabBooking.tsx';
-import GynExam from './pages/services/GynExam.tsx';
-import Lactation from './pages/services/Lactation.tsx';
-import GeminiChat from './components/GeminiChat.tsx';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+import Home from './pages/Home';
+import About from './pages/About';
+import TestimonialsPage from './pages/TestimonialsPage';
+import Contact from './pages/Contact';
+import Blog from './pages/Blog';
+import LabBooking from './pages/services/LabBooking';
+import GynExam from './pages/services/GynExam';
+import Lactation from './pages/services/Lactation';
+import GeminiChat from './components/GeminiChat';
 
 const AnimatedRoutes = () => {
   const location = useLocation();

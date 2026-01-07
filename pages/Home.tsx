@@ -2,7 +2,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { motion, Variants } from 'framer-motion';
-import { SERVICES, TESTIMONIALS, FAQS } from '../constants.tsx';
+import { SERVICES, TESTIMONIALS, FAQS } from '../constants';
 
 const containerVariants: Variants = {
   hidden: { opacity: 0 },
