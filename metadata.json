@@ -1,0 +1,7 @@
+{
+  "name": "M Health Fairview Clinic – Oxboro",
+  "description": "Comprehensive women's health, lab services, and lactation support clinic in Bloomington, MN.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
